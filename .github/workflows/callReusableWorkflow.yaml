@@ -1,0 +1,7 @@
+on:
+  workflow_dispatch:
+ 
+jobs:
+  call-workflow-passing-data:
+    uses: ernestodiaz-nowsta/ghaTriggerRepoA/.github/workflows/test.yml@main
+    secrets: inherit
